@@ -41,7 +41,7 @@ function remove(user) {
 </script>
 
 <template>
-  <h1>Login View</h1>
+    <div class="loginview"><h1>Login View</h1></div> 
 
   <template v-if="names.length > 0">
     <ul>
